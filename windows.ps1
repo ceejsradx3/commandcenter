@@ -317,6 +317,13 @@ Set-ItemProperty "HKCU:\SOFTWARE\Microsoft\Internet Explorer\Main" "Check_Associ
 # Disable Password Caching [Disable Remember Password]
 #Set-ItemProperty "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings" "DisablePasswordCaching" 1
 
+###############################################################################
+# Appearance                                                                  #
+###############################################################################
+
+Write-Host "Enabling Dark Mode"
+Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name AppsUseLightTheme -Value 0
+Write-Host "Enabled Dark Mode"
 
 ###############################################################################
 # Disk Cleanup (CleanMgr.exe)                                                 #

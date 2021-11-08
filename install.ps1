@@ -9,8 +9,10 @@ Write-Host "Setting Windows settings and preferences..."
 Write-Host "Removing bloatware..."
 . .\win10debloat.ps1
 
-Write-Host "Configuring your terminal..."
-. .\ps.ps1
+Write-Host "Configuring features..."
 
-Write-Host "Creating symlinks to important directories and files..."
-. .\symlinks.ps1
+#Write-Host "Configuring your terminal..."
+#. .\ps.ps1
+
+#Write-Host "Creating symlinks to important directories and files..."
+#. .\symlinks.ps1
