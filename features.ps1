@@ -1,7 +1,7 @@
 ###############################################################################
 # Windows Features                                                            #
 ###############################################################################
-Write-Host "Installing Windows Features..." -ForegroundColor "Yellow"
+Write-Host "Installing Windows Features..."
 
 # .net Framework
 Enable-WindowsOptionalFeature -Online -All -FeatureName `
@@ -9,9 +9,8 @@ Enable-WindowsOptionalFeature -Online -All -FeatureName `
     "NetFx4-AdvSrvs", `
     -NoRestart | Out-Null
 
-###############################################################################
-# RSAT                                                                        #
-###############################################################################
+# RSAT
+
 Add-WindowsCapability -Online -Name `
     "Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0", `
     "Rsat.DHCP.Tools~~~~0.0.1.0", `
