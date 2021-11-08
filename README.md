@@ -2,7 +2,7 @@
 
 ![windows preview](https://raw.githubusercontent.com/ceejsradx3/dotfiles/master/preview.png)
 
-This repo workflow to automate the configuration my Windows installations. This is primarily tailored to my machine that is used for my line of work as a System Adminstrator. Feel free to explore, copy and re-use the code as you see fit.
+This repo is a workflow to automate the configuration my Windows installations. This is primarily tailored to my machine that is used for my line of work as a System Administrator. Feel free to explore, copy and re-use the code as you see fit.
 
 ## Installation
 
@@ -20,5 +20,3 @@ That's about it, I think... I'm sure as time passes, and I learn more things, th
 Below is a list of the packages, utilities, and programs set to install:
 
 tbc....
-
-
