@@ -20,3 +20,6 @@ That's about it, I think... I'm sure as time passes, and I learn more things, th
 Below is a list of the packages, utilities, and programs set to install:
 
 tbc....
+
+## Thanks to
+Special thanks to [Jay Harris](https://github.com/jayharris/dotfiles-windows) and [Chris Titus](https://github.com/ChrisTitusTech/win10script) as a bulk of the inspriation came from them.
