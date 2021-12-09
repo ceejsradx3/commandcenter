@@ -10,6 +10,7 @@ Write-Host "Removing bloatware..."
 . .\win10debloat.ps1
 
 Write-Host "Configuring features..."
+. .\features.ps1
 
 #Write-Host "Configuring your terminal..."
 #. .\ps.ps1
