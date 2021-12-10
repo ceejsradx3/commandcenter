@@ -9,7 +9,7 @@ This repo is an amalgamation created to automate the configuration of my Windows
 **Warning**: I recommend you fork and review the code first, before giving these scripts
 a try. Be sure to set the execution policy by initiating either `Set-ExecutionPolicy Remotesigned` or `Set-ExecutionPolicy Bypass` first so the scripts can run. Once ready, provided you have git cli already installed, you can run the following command from your shell or terminal window to begin:
 
-    git clone http://github.com/ceejsradx3/commandcenter.git && cd commandcenter && ./install.sh
+    git clone http://github.com/ceejsradx3/commandcenter.git && cd commandcenter && ./install.ps1
 
 That's about it, I think... I'm sure as time passes, and I learn more things, this repo will evolve.
 
