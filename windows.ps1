@@ -4,8 +4,11 @@
 ###############################################################################
 Write-Host "Configuring System..." -ForegroundColor "Yellow"
 
+Write-Host -Prompt "What would you like to name your device?"
+$compName = Read-Host
+
 # Set Computer Name
-(Get-WmiObject Win32_ComputerSystem).Rename("CommandCenter") | Out-Null
+(Get-WmiObject Win32_ComputerSystem).Rename("$compName") | Out-Null
 
 # Enable Developer Mode
 #Set-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" "AllowDevelopmentWithoutDevLicense" 1
