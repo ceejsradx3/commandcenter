@@ -1,6 +1,6 @@
 # CeeJsRadx3's Windows Setup
 
-![windows preview](https://raw.githubusercontent.com/ceejsradx3/dotfiles/master/preview.png)
+![windows preview](https://raw.githubusercontent.com/cjmvincent/commandcenter/master/preview.png)
 
 This repo is an amalgamation created to automate the configuration of my Windows' installation. This is primarily tailored to my machine used for my line of work as a System Administrator. Feel free to explore, copy and re-use the code as you see fit.
 
