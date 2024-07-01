@@ -4,7 +4,6 @@
 Write-Host "Installing Windows Features..."
 
 # .net Framework
-
 $NET = @(
 "NetFx3"
 "NetFx4-AdvSrvs"
