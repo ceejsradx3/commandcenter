@@ -9,7 +9,7 @@ This repo has been created to automate the configuration of my Windows' installa
 **Warning**: I recommend you fork and review the code first before giving these scripts
 a try. Be sure to set the execution policy for your environment first so the scripts can run. Once ready, provided you have git cli already installed, you can run the following command from your shell or terminal window to begin:
 
-    git clone http://github.com/ceejsradx3/commandcenter.git && cd commandcenter && .\install.ps1
+    git clone http://github.com/cjmvincent/commandcenter.git && cd commandcenter && .\install.ps1
 
 That's about it, I think... I'm sure as time passes, and I learn more things, this repo will evolve.
 
