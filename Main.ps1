@@ -1,3 +1,7 @@
+###############################################################################
+# Configure Windows Device                                                    #
+###############################################################################
+
 Write-Host "Preparing to configure your Windows machine.."
 
 Write-Host "Installing desired applications..."
