@@ -18,13 +18,13 @@ Write-Host "Preparing to configure your Windows machine.."
 Write-Host "Installing desired applications..."
 . .\Install-Programs.ps1
 
-Write-Host "Setting Windows settings and preferences..."
+Write-Host "Configuring Windows settings and preferences..."
 . .\Configure-WindowsSettings.ps1
 
 Write-Host "Removing bloatware..."
 . .\Remove-Bloat.ps1
 
-Write-Host "Configuring features..."
+Write-Host "Installing Windows features..."
 . .\Install-WindowsFeatures.ps1
 
 #Write-Host "Configuring your terminal..."
