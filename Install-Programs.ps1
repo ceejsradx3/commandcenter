@@ -1,16 +1,17 @@
 
 
 $apps = @(
-	"Google.Chrome"
-	"Microsoft.Office"
-	"VideoLAN.VLC"
-	"Discord.Discord"
-	"Notepad++.Notepad++"
-	"7zip.7zip"
-	"Microsoft.PowerToys"
-	"WinSCP.WinSCP"
-	"Microsoft.WindowsTerminal"
-	"Microsoft.VisualStudioCode"
+    "Google.Chrome"
+    "Microsoft.Office"
+    "VideoLAN.VLC"
+    "Discord.Discord"
+    "Notepad++.Notepad++"
+    "7zip.7zip"
+    "Microsoft.PowerToys"
+    "WinSCP.WinSCP"
+    "Microsoft.WindowsTerminal"
+    "Microsoft.VisualStudioCode"
+    "Termius.Terminus"
 
 );
 
