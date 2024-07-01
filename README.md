@@ -20,17 +20,17 @@ Below is a list of the packages, utilities, and programs set to install:
 - Google Chrome
 - Discord
 - Adobe Acrobat Reader DC
-- Notepad++
 - VLC
 - 7zip
+- Microsoft Office
+- Microsoft Teams
 - Microsoft PowerToys
 - GitHub Desktop
+- VSCode
 - Balena Etcher
 - PuTTY
-- Termius
 - WinSCP
-- Microsoft Teams
-- VSCode
+- Termius
 - Microsoft WindowsTerminal
 
 Additionally, a few features will be enabled or installed:
