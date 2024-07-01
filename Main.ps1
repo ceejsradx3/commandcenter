@@ -2,6 +2,17 @@
 # Configure Windows Device                                                    #
 ###############################################################################
 
+### Are you even the admin
+function check_rights {
+    If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator))
+    {
+        Write-Warning "Stopping wasting time: you ain't the admin. Try that again."
+        Break
+    }
+}
+
+check_rights
+
 Write-Host "Preparing to configure your Windows machine.."
 
 Write-Host "Installing desired applications..."
