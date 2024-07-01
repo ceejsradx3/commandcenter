@@ -2,11 +2,11 @@
 
 ![windows preview](https://raw.githubusercontent.com/cjmvincent/commandcenter/master/preview.png)
 
-This repo has been created to automate the configuration of my Windows' installation. This is primarily tailored to my machine used for my line of work as an Engineer in the public school system. Feel free to explore, copy and re-use the code as you see fit.
+This repo has been created to automate the configuration of my Windows' installation. This is primarily tailored to my machine used as an Engineer in the public school system. Feel free to explore, copy, and re-use the code as you see fit.
 
 ## Installation
 
-**Warning**: I recommend you fork and review the code first, before giving these scripts
+**Warning**: I recommend you fork and review the code first before giving these scripts
 a try. Be sure to set the execution policy for your environment first so the scripts can run. Once ready, provided you have git cli already installed, you can run the following command from your shell or terminal window to begin:
 
     git clone http://github.com/ceejsradx3/commandcenter.git && cd commandcenter && .\install.ps1
