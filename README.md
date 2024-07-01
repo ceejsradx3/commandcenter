@@ -1,8 +1,8 @@
-# CeeJsRadx3's Windows Setup
+# Windows Setup
 
 ![windows preview](https://raw.githubusercontent.com/cjmvincent/commandcenter/master/preview.png)
 
-This repo is an amalgamation created to automate the configuration of my Windows' installation. This is primarily tailored to my machine used for my line of work as a System Administrator. Feel free to explore, copy and re-use the code as you see fit.
+This repo has been created to automate the configuration of my Windows' installation. This is primarily tailored to my machine used for my line of work as an Engineer in the public school system. Feel free to explore, copy and re-use the code as you see fit.
 
 ## Installation
 
@@ -27,9 +27,10 @@ Below is a list of the packages, utilities, and programs set to install:
 - GitHub Desktop
 - Balena Etcher
 - PuTTY
+- Termius
 - WinSCP
 - Microsoft Teams
-- GitHub Atom
+- VSCode
 - Microsoft WindowsTerminal
 
 Additionally, a few features will be enabled or installed:
