@@ -12,7 +12,12 @@ $apps = @(
     "Microsoft.WindowsTerminal"
     "Microsoft.VisualStudioCode"
     "Termius.Terminus"
-
+    "GitHub.GitHubDesktop"
+    "QMK.QMKToolbox"
+    "Olivia.VIA"
+    "WiresharkFoundation.Wireshark"
+    "Zoom.Zoom"
+    "Teamviewer.Teamviewer"
 );
 
 function install_winget {
