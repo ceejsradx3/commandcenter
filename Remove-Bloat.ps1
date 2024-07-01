@@ -28,9 +28,6 @@ $bloatware = @(
     "Microsoft.SkypeApp"
     "Microsoft.Wallet"
     "Microsoft.WindowsAlarms"
-    #"Microsoft.WindowsCalculator"
-    #"Microsoft.WindowsCamera"
-    #"microsoft.windowscommunicationsapps"          # Mail and Calender     
     "Microsoft.WindowsMaps"
     "Microsoft.WindowsPhone"
     "Microsoft.WindowsSoundRecorder"
