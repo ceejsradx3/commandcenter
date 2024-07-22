@@ -16,19 +16,19 @@ check_rights
 Write-Host "Preparing to configure your Windows machine.."
 
 Write-Host "Installing desired applications..."
-. .\Install-Programs.ps1
+. .\src\Install-Programs.ps1
 
 Write-Host "Configuring Windows settings and preferences..."
-. .\Configure-WindowsSettings.ps1
+. .\src\Configure-WindowsSettings.ps1
 
 Write-Host "Removing bloatware..."
-. .\Remove-Bloat.ps1
+. .\src\Remove-Bloat.ps1
 
 Write-Host "Installing Windows features..."
-. .\Install-WindowsFeatures.ps1
+. .\src\Install-WindowsFeatures.ps1
 
 #Write-Host "Configuring your terminal..."
-#. .\Configure-PowerShell.ps1
+#. .\src\Configure-PowerShell.ps1
 
 #Write-Host "Creating symlinks to important directories and files..."
-#. .\Create-Sysmlinks.ps1
+#. .\src\Create-Symlinks.ps1
